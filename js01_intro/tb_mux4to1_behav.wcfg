@@ -3,48 +3,68 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="tb_mux4to1_behav.wdb" id="1">
+      <db_ref path="tb_mux8to1_behav.wdb" id="1">
          <top_modules>
-            <top_module name="tb_mux4to1" />
+            <top_module name="tb_mux8to1" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="296.001 ns"></ZoomEndTime>
-      <Cursor1Time time="0.000 ns"></Cursor1Time>
+      <ZoomEndTime time="375.001 ns"></ZoomEndTime>
+      <Cursor1Time time="400.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="287"></NameColumnWidth>
-      <ValueColumnWidth column_width="131"></ValueColumnWidth>
+      <NameColumnWidth column_width="209"></NameColumnWidth>
+      <ValueColumnWidth column_width="93"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="6" />
-   <wvobject fp_name="/tb_mux4to1/sel_tb" type="array">
-      <obj_property name="ElementShortName">sel_tb[1:0]</obj_property>
-      <obj_property name="ObjectShortName">sel_tb[1:0]</obj_property>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tb_mux8to1/sel_tb" type="array">
+      <obj_property name="ElementShortName">sel_tb[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sel_tb[2:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_mux4to1/in0_tb" type="array">
+   <wvobject fp_name="/tb_mux8to1/in0_tb" type="array">
       <obj_property name="ElementShortName">in0_tb[3:0]</obj_property>
       <obj_property name="ObjectShortName">in0_tb[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_mux4to1/in1_tb" type="array">
+   <wvobject fp_name="/tb_mux8to1/in1_tb" type="array">
       <obj_property name="ElementShortName">in1_tb[3:0]</obj_property>
       <obj_property name="ObjectShortName">in1_tb[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_mux4to1/in2_tb" type="array">
+   <wvobject fp_name="/tb_mux8to1/in2_tb" type="array">
       <obj_property name="ElementShortName">in2_tb[3:0]</obj_property>
       <obj_property name="ObjectShortName">in2_tb[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_mux4to1/in3_tb" type="array">
+   <wvobject fp_name="/tb_mux8to1/in3_tb" type="array">
       <obj_property name="ElementShortName">in3_tb[3:0]</obj_property>
       <obj_property name="ObjectShortName">in3_tb[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_mux4to1/y_tb" type="array">
+   <wvobject fp_name="/tb_mux8to1/in4_tb" type="array">
+      <obj_property name="ElementShortName">in4_tb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">in4_tb[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mux8to1/in5_tb" type="array">
+      <obj_property name="ElementShortName">in5_tb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">in5_tb[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mux8to1/in6_tb" type="array">
+      <obj_property name="ElementShortName">in6_tb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">in6_tb[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mux8to1/in7_tb" type="array">
+      <obj_property name="ElementShortName">in7_tb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">in7_tb[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mux8to1/y_tb" type="array">
       <obj_property name="ElementShortName">y_tb[3:0]</obj_property>
       <obj_property name="ObjectShortName">y_tb[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>

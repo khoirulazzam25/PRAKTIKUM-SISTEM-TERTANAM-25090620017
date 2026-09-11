@@ -25,31 +25,36 @@ begin
             y   => y_tb 
         );
 
-    -- Proses pemberian stimulus
-    stim_proc: process
+stim_proc: process
     begin
-        -- Memberikan nilai awal pada in0 sampai in3 agar mudah diamati di waveform
-        in0_tb <= "1010"; -- Nilai A (Hex) atau 10 (Desimal)
-        in1_tb <= "1011"; -- Nilai B (Hex) atau 11 (Desimal)
-        in2_tb <= "1100"; -- Nilai C (Hex) atau 12 (Desimal)
-        in3_tb <= "1101"; -- Nilai D (Hex) atau 13 (Desimal)
+        -- Nilai awal input
+        in0_tb <= "1010"; 
+        in1_tb <= "1011"; 
+        in2_tb <= "1100"; 
+        in3_tb <= "1101"; 
         wait for 20 ns;
 
         -- Skenario 1: Memilih input 0
         sel_tb <= "00"; 
         wait for 20 ns;
+        -- Cek apakah y_tb sama dengan in0_tb
+        assert (y_tb = in0_tb) report "MUX gagal di sel=00" severity error;
 
         -- Skenario 2: Memilih input 1
         sel_tb <= "01"; 
         wait for 20 ns;
+        -- Cek apakah y_tb sama dengan in1_tb
+        assert (y_tb = in1_tb) report "MUX gagal di sel=01" severity error;
 
         -- Skenario 3: Memilih input 2
         sel_tb <= "10"; 
         wait for 20 ns;
+        assert (y_tb = in2_tb) report "MUX gagal di sel=10" severity error;
 
         -- Skenario 4: Memilih input 3
         sel_tb <= "11"; 
         wait for 20 ns;
+        assert (y_tb = in3_tb) report "MUX gagal di sel=11" severity error;
         
         wait; -- Hentikan simulasi
     end process;
