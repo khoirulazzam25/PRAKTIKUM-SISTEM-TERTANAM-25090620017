@@ -1,102 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1788248062">
-  <File Type="ROUTE-PWR-SUM" Name="led_switch_top_power_summary_routed.pb"/>
-  <File Type="BITSTR-MMI" Name="led_switch_top.mmi"/>
-  <File Type="OPT-DRC" Name="led_switch_top_drc_opted.rpt"/>
-  <File Type="RDI-RDI" Name="led_switch_top.vdi"/>
-  <File Type="BG-DRC" Name="led_switch_top.drc"/>
-  <File Type="ROUTE-STATUS-PB" Name="led_switch_top_route_status.pb"/>
-  <File Type="BG-BGN" Name="led_switch_top.bgn"/>
-  <File Type="PLACE-UTIL" Name="led_switch_top_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="led_switch_top_utilization_placed.pb"/>
-  <File Type="PLACE-IO" Name="led_switch_top_io_placed.rpt"/>
-  <File Type="BG-BIN" Name="led_switch_top.bin"/>
-  <File Type="REPORTS-TCL" Name="led_switch_top_reports.tcl"/>
-  <File Type="PA-TCL" Name="led_switch_top.tcl"/>
-  <File Type="PLACE-CTRL" Name="led_switch_top_control_sets_placed.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="led_switch_top_power_routed.rpx"/>
-  <File Type="BITSTR-MSK" Name="led_switch_top.msk"/>
-  <File Type="BITSTR-RBT" Name="led_switch_top.rbt"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="led_switch_top_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-RPX" Name="led_switch_top_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="led_switch_top_route_status.rpt"/>
-  <File Type="ROUTE-PWR" Name="led_switch_top_power_routed.rpt"/>
-  <File Type="ROUTE-DRC" Name="led_switch_top_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-RPX" Name="led_switch_top_drc_routed.rpx"/>
-  <File Type="ROUTE-DRC-PB" Name="led_switch_top_drc_routed.pb"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="led_switch_top_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="led_switch_top_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="led_switch_top_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-SIMILARITY" Name="led_switch_top_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="led_switch_top_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="led_switch_top_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="led_switch_top_bus_skew_routed.rpx"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="led_switch_top_bus_skew_routed.pb"/>
-  <File Type="BG-XML" Name="led_switch_top.xml"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1789377889">
+  <File Type="PA-TCL" Name="js03_task2_top.tcl"/>
+  <File Type="REPORTS-TCL" Name="js03_task2_top_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="js03_task2_top_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="js03_task2_top_opt.dcp"/>
+  <File Type="OPT-DRC" Name="js03_task2_top_drc_opted.rpt"/>
+  <File Type="OPT-UTIL" Name="js03_task2_top_utilization_opted.rpt"/>
+  <File Type="OPT-UTIL-PB" Name="js03_task2_top_utilization_opted.pb"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="js03_task2_top_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="js03_task2_top.hwdef"/>
+  <File Type="OPT-TIMING" Name="js03_task2_top_timing_summary_opted.rpt"/>
+  <File Type="OPT-RQA-PB" Name="js03_task2_top_rqa_opted.pb"/>
+  <File Type="PWROPT-DCP" Name="js03_task2_top_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="js03_task2_top_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="js03_task2_top_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="js03_task2_top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="js03_task2_top_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="js03_task2_top_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="js03_task2_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="js03_task2_top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="js03_task2_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="js03_task2_top_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="js03_task2_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="js03_task2_top_timing_summary_placed.rpt"/>
+  <File Type="PLACE-RQA-PB" Name="js03_task2_top_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="js03_task2_top_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="js03_task2_top_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="js03_task2_top_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="js03_task2_top_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="js03_task2_top_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="js03_task2_top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="js03_task2_top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="js03_task2_top_routed_bb.dcp"/>
+  <File Type="ROUTE-UTIL" Name="js03_task2_top_utilization_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="js03_task2_top_utilization_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="js03_task2_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="js03_task2_top_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="js03_task2_top_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="js03_task2_top_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="js03_task2_top_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="js03_task2_top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="js03_task2_top_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="js03_task2_top_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="js03_task2_top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="js03_task2_top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="js03_task2_top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="js03_task2_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="js03_task2_top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="js03_task2_top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="js03_task2_top_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="js03_task2_top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="js03_task2_top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="js03_task2_top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="js03_task2_top_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="js03_task2_top_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="js03_task2_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="js03_task2_top_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="led_switch_top_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="led_switch_top_timing_summary_postroute_physopted.rpx"/>
-  <File Type="BG-WRITE-BITSTREAM-XML" Name="write_bitstream.xml"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="led_switch_top_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="led_switch_top_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="led_switch_top_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="led_switch_top_bus_skew_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="led_switch_top_bus_skew_postroute_physopted.pb"/>
-  <File Type="BG-BIT" Name="led_switch_top.bit"/>
-  <File Type="BITSTR-NKY" Name="led_switch_top.nky"/>
-  <File Type="BITSTR-BMM" Name="led_switch_top_bd.bmm"/>
-  <File Type="BITSTR-SYSDEF" Name="led_switch_top.sysdef"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="led_switch_top_bus_skew_postroute_physopted.rpx"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="js03_task2_top.nts"/>
+  <File Type="NOC_SOLUTION_FILE" Name="js03_task2_top.ncr"/>
+  <File Type="BG-BIT" Name="js03_task2_top.bit"/>
+  <File Type="BG-XML" Name="js03_task2_top.xml"/>
+  <File Type="BG-WRITE-BITSTREAM-XML" Name="write_bitstream.xml"/>
+  <File Type="BG-BIN" Name="js03_task2_top.bin"/>
+  <File Type="BITSTR-MSK" Name="js03_task2_top.msk"/>
+  <File Type="BITSTR-RBT" Name="js03_task2_top.rbt"/>
+  <File Type="BITSTR-NKY" Name="js03_task2_top.nky"/>
+  <File Type="BITSTR-BMM" Name="js03_task2_top_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="js03_task2_top.mmi"/>
+  <File Type="PDI-FILE" Name="js03_task2_top.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="js03_task2_top_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="js03_task2_top_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="js03_task2_top.rcfi"/>
+  <File Type="CFI_FILE" Name="js03_task2_top.cfi"/>
+  <File Type="RNPI_FILE" Name="js03_task2_top.rnpi"/>
+  <File Type="RCDO-FILE" Name="js03_task2_top.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="js03_task2_top_markers.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="js03_task2_top_markers.rcdo"/>
+  <File Type="BOOT_RNPI_FILE" Name="js03_task2_top_boot.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="js03_task2_top_boot_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="js03_task2_top_pld.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="js03_task2_top_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="js03_task2_top_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="js03_task2_top_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="js03_task2_top_pld_unmask.rnpi"/>
+  <File Type="PL-RCDO-FILE" Name="js03_task2_top_pld.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="js03_task2_top_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="js03_task2_top_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="js03_task2_top_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="js03_task2_top_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="js03_task2_top_pld_unmask.rcdo"/>
+  <File Type="NPI_FILE" Name="js03_task2_top.npi"/>
+  <File Type="RBD_FILE" Name="js03_task2_top.rbd"/>
+  <File Type="MMI-FILE" Name="js03_task2_top.mmi"/>
+  <File Type="BIF-FILE" Name="js03_task2_top.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="js03_task2_top_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="js03_task2_top_pld.bif"/>
+  <File Type="LTX-FILE" Name="js03_task2_top.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="js03_task2_top_boot.ltx"/>
+  <File Type="PL-LTX-FILE" Name="js03_task2_top_pld.ltx"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="led_switch_top.ltx"/>
+  <File Type="BITSTR-LTX" Name="js03_task2_top.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="js03_task2_top.sysdef"/>
+  <File Type="BG-BGN" Name="js03_task2_top.bgn"/>
+  <File Type="BG-DRC" Name="js03_task2_top.drc"/>
+  <File Type="RDI-RDI" Name="js03_task2_top.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="OPT-HWDEF" Name="led_switch_top.hwdef"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="led_switch_top_incremental_reuse_pre_placed.rpt"/>
-  <File Type="ROUTE-DCP" Name="led_switch_top_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="led_switch_top_routed_error.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="led_switch_top_routed_bb.dcp"/>
-  <File Type="ROUTE-TIMING-PB" Name="led_switch_top_timing_summary_routed.pb"/>
-  <File Type="OPT-DCP" Name="led_switch_top_opt.dcp"/>
-  <File Type="PLACE-DCP" Name="led_switch_top_placed.dcp"/>
-  <File Type="PWROPT-DCP" Name="led_switch_top_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="led_switch_top_postplace_pwropt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="led_switch_top_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="led_switch_top_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="led_switch_top_postroute_physopt_bb.dcp"/>
-  <File Type="PDI-FILE" Name="led_switch_top.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="led_switch_top_boot.pdi"/>
-  <File Type="PL-PDI-FILE" Name="led_switch_top_pld.pdi"/>
-  <File Type="RCFI_FILE" Name="led_switch_top.rcfi"/>
-  <File Type="CFI_FILE" Name="led_switch_top.cfi"/>
-  <File Type="RNPI_FILE" Name="led_switch_top.rnpi"/>
-  <File Type="NPI_FILE" Name="led_switch_top.npi"/>
-  <File Type="RBD_FILE" Name="led_switch_top.rbd"/>
-  <File Type="ROUTE-RQS" Name="led_switch_top_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="led_switch_top_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="js03_task2_top_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="js03_task2_top_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
-  <File Type="MMI-FILE" Name="led_switch_top.mmi"/>
-  <File Type="BIF-FILE" Name="led_switch_top.bif"/>
-  <File Type="BOOT-BIF-FILE" Name="led_switch_top_boot.bif"/>
-  <File Type="PL-BIF-FILE" Name="led_switch_top_pld.bif"/>
-  <File Type="LTX-FILE" Name="led_switch_top.ltx"/>
-  <File Type="BOOT-LTX-FILE" Name="led_switch_top_boot.ltx"/>
-  <File Type="PL-LTX-FILE" Name="led_switch_top_pld.ltx"/>
-  <File Type="RCDO-FILE" Name="led_switch_top.rcdo"/>
-  <File Type="MARKER-RCDO-FILE" Name="led_switch_top_markers.rcdo"/>
-  <File Type="PL-RCDO-FILE" Name="led_switch_top_pld.rcdo"/>
-  <File Type="MARKER-RNPI-FILE" Name="led_switch_top_markers.rnpi"/>
-  <File Type="BOOT_RNPI_FILE" Name="led_switch_top_boot.rnpi"/>
-  <File Type="PL_RNPI_FILE" Name="led_switch_top_pld.rnpi"/>
-  <File Type="BOOT_MARKER_RNPI_FILE" Name="led_switch_top_boot_markers.rnpi"/>
-  <File Type="PL_MARKER_RNPI_FILE" Name="led_switch_top_pld_markers.rnpi"/>
-  <File Type="PL_MASK_RNPI_FILE" Name="led_switch_top_pld_mask.rnpi"/>
-  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="led_switch_top_pld_shutdown.rnpi"/>
-  <File Type="PL_UNMASK_RNPI_FILE" Name="led_switch_top_pld_unmask.rnpi"/>
-  <File Type="PL-CLEAR-RCDO-FILE" Name="led_switch_top_pld_clear.rcdo"/>
-  <File Type="PL_MARKER_RCDO_FILE" Name="led_switch_top_pld_markers.rcdo"/>
-  <File Type="PL_MASK_RCDO_FILE" Name="led_switch_top_pld_mask.rcdo"/>
-  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="led_switch_top_pld_unmask_markers.rcdo"/>
-  <File Type="PL_UNMASK_RCDO_FILE" Name="led_switch_top_pld_unmask.rcdo"/>
-  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="led_switch_top.nts"/>
-  <File Type="NOC_SOLUTION_FILE" Name="led_switch_top.ncr"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/led_switch_top.vhd">
@@ -105,10 +123,45 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/mux4to1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux8to1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/leading_one_detector.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/alu4.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/js03_top.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/js03_tugas2.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="led_switch_top"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="js03_task2_top"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -140,6 +193,5 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
-    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>

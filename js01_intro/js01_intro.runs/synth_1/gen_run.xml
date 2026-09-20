@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1788247886">
-  <File Type="REPORTS-TCL" Name="led_switch_top_reports.tcl"/>
-  <File Type="RDS-UTIL" Name="led_switch_top_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="led_switch_top_utilization_synth.pb"/>
-  <File Type="PA-TCL" Name="led_switch_top.tcl"/>
-  <File Type="RDS-RDS" Name="led_switch_top.vds"/>
-  <File Type="RDS-DCP" Name="led_switch_top.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1789377889">
+  <File Type="PA-TCL" Name="js03_task2_top.tcl"/>
+  <File Type="REPORTS-TCL" Name="js03_task2_top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="js03_task2_top.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="js03_task2_top_drc_synth.rpt"/>
+  <File Type="RDS-UTIL" Name="js03_task2_top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="js03_task2_top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="js03_task2_top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="js03_task2_top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="js03_task2_top_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/led_switch_top.vhd">
@@ -14,10 +17,45 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/mux4to1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux8to1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/leading_one_detector.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/alu4.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/js03_top.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/js03_tugas2.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="led_switch_top"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="js03_task2_top"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">

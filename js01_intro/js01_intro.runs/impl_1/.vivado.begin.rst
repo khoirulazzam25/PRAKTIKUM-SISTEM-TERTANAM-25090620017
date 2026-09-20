@@ -1,25 +1,20 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="KZAMA" Host="DESKTOP-0HMDJIE" Pid="10444" HostCore="4" HostMemory="08315924480">
+    <Process Command="vivado.bat" Owner="KZAMA" Host="DESKTOP-0HMDJIE" Pid="10840" HostCore="4" HostMemory="08315924480">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="KZAMA" Host="DESKTOP-0HMDJIE" Pid="8204" HostCore="4" HostMemory="08315924480">
+    <Process Command="vivado.bat" Owner="KZAMA" Host="DESKTOP-0HMDJIE" Pid="5636" HostCore="4" HostMemory="08315924480">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="KZAMA" Host="DESKTOP-0HMDJIE" Pid="10080" HostCore="4" HostMemory="08315924480">
+    <Process Command="vivado.bat" Owner="KZAMA" Host="DESKTOP-0HMDJIE" Pid="12560" HostCore="4" HostMemory="08315924480">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="KZAMA" Host="DESKTOP-0HMDJIE" Pid="14388" HostCore="4" HostMemory="08315924480">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="KZAMA" Host="DESKTOP-0HMDJIE" Pid="1324" HostCore="4" HostMemory="08315924480">
+    <Process Command="vivado.bat" Owner="KZAMA" Host="DESKTOP-0HMDJIE" Pid="7740" HostCore="4" HostMemory="08315924480">
     </Process>
 </ProcessHandle>
